@@ -1,0 +1,27 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "This is a chat server for schedule me application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imwm-ns/Chat-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imwm-ns/Chat-Server/issues"
+  },
+  "homepage": "https://github.com/imwm-ns/Chat-Server#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}
